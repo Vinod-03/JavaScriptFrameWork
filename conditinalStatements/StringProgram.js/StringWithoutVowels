@@ -1,0 +1,17 @@
+let s="testYanta"
+let  vow="";
+let cont="";
+            
+   
+        for(let i=0;i<s.length;i++)
+        {
+            if(s[i]=='a' || s[i]=='e'|| s[i]=='o' ||s[i]=='u'|| s[i]=='i')
+            {
+                vow=vow+s[i]
+            }
+            else
+            {
+               cont=cont+s[i]
+            }
+        }
+console.log(cont)

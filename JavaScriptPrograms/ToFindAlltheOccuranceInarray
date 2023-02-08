@@ -1,0 +1,24 @@
+ var arr=[1,2,5,4,1,4,4]
+     
+      newArr = [];
+for (var index = 0; index < arr.length; index++) {
+    let index1 = 0
+    for (var j = index+1; j < arr.length; j++)
+     {
+        
+        
+        if(arr[index]==arr[j])
+        {
+            
+
+            index1++;
+   
+        }
+        if(index1>=1)
+        console.log(arr[index]+" "+index1)
+    }
+
+    
+    }
+      
+   
