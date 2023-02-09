@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="text1"></input>
+    <input id="text2"></input>
+    <p id="res"></p>
+    <button id="bt1">add</button>
+    <button id="bt2">sub</button>
+    <button id="bt3">mul</button>
+    <button id="bt4">div</button>
+
+
+
+</body>
+
+<script>
+     
+        document.getElementById("bt1").onclick=addition;
+        document.getElementById("bt2").onclick=subtraction;
+        document.getElementById("bt3").onclick=division;
+        document.getElementById("bt4").onclick=multiplication;
+        
+
+  function addition()
+  {
+
+      
+    t1= document.getElementById("text1").value;
+          t4= parseInt(t1);
+      t2=document.getElementById("text2").value;
+      t5= parseInt(t2);
+      add=t4+t5
+          document.getElementById("res").innerHTML=add
+  }
+
+  function subtraction()
+  {
+
+      
+    t1= document.getElementById("text1").value;
+          t4= parseInt(t1);
+      t2=document.getElementById("text2").value;
+      t5= parseInt(t2);
+      sub=t4-t5
+          document.getElementById("res").innerHTML=sub
+  }
+  
+  function division()
+  {
+
+      
+    t1= document.getElementById("text1").value;
+          t4= parseInt(t1);
+      t2=document.getElementById("text2").value;
+      t5= parseInt(t2);
+      div=t4/t5
+          document.getElementById("res").innerHTML=div
+  }
+  function multiplication()
+  {
+
+      
+    t1= document.getElementById("text1").value;
+          t4= parseInt(t1);
+      t2=document.getElementById("text2").value;
+      t5= parseInt(t2);
+      mul=t4*t5
+          document.getElementById("res").innerHTML=mul
+  }
+    
+</script>
+</html>

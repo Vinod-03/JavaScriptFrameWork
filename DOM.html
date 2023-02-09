@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <button id="cl">Clickbtn</button>
+    <p id="mydate"></p>
+    <p id="onl">Online banking</p>
+    <p id="one1"> Online banking testing by selenium tool</p>
+</body>
+  <script>
+         document.getElementById("cl").onclick=change();
+        
+        function  change() 
+        {
+        
+            document.getElementById("mydate").innerHTML=Date();
+         document.getElementById("onl").innerHTML="Online banking banking domain";
+         document.getElementById("one1").innerHTML="Online banking testing by javascript tool"
+        }
+
+    </script>
+</html>
