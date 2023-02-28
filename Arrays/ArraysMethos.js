@@ -17,7 +17,8 @@ var arr2=[3,9,3,54,8]
 // console.log(arr2.shift());
 // console.log(arr2);
 
-// console.log(arr2.unshift(5));
+// console.log(arr2.unshift(5)
+);
 // console.log(arr2);
 
 // console.log(arr2.push(5));

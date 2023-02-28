@@ -1,10 +1,8 @@
 
-
 var n=0;
 var n1=1;
 var n2;
 var num=15
-
 
 
   console.log(n);

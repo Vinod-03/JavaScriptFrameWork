@@ -1,0 +1,6 @@
+let a=30
+
+
+if (a%5==0 && a%10==0) {
+    console.log("the number is divisible of 5 and 10"); 
+}

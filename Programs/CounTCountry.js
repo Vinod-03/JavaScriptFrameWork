@@ -5,9 +5,6 @@ input=[{fname:"abc",address:"India"},
 {fname:"001",address:"Russia"},
 ]
 
-
-
-
      for (let i=0;i<input.length;i++) {
        
         let count=0

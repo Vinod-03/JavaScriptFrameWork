@@ -15,16 +15,16 @@
    //rogram
 
 
-     const a=10
-     {
-      const a=20
-      console.log(a);
-     }
+    //  const a=10
+    //  {
+    //   const a=20
+    //   console.log(a);
+    //  }
 
-     console.log(a);
+    //  console.log(a);
 
 
 
-   //  const fruits=["mango","apple"]
-   //  console.log(fruits.length); //  mango
-   //  console.log(fruits[0]);   //
+    const fruits=["mango","apple"]
+    console.log(fruits.length); //  2
+    console.log(fruits[0]);   //mango

@@ -8,6 +8,8 @@
 
           let  stri="Welecome to java script"
 
+
+           console.log(stri.su(2));
         //    console.log(stri.slice(8,11)); // o/p  to 
 
 
@@ -50,10 +52,10 @@
 
 
                                    //  console.log(stri.localeCompare("str")); // to compare two string if it is true returns 0 otherwise -1
-                                   console.log(stri.length);
-                                   console.log(stri.padEnd( 30," suresh")); //  to add a string after string 1 at exact spaces
+                                  //  console.log(stri.length);
+                                  //  console.log(stri.padEnd( 30," suresh")); //  to add a string after string 1 at exact spaces
 
-                                   console.log(stri.includes("vinod"));
-                                  console.log(stri.indexOf("j"))
+                                  //  console.log(stri.includes("vinod"));
+                                  // console.log(stri.indexOf("j"))
 
 

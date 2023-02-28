@@ -11,8 +11,8 @@
       {
          if(st[i]>='A' && st[i]<='Z')
            {
-            console.log(st[i]);
+            console.log(st[i]);  //  I T Y
+                     
            }
-
 
       }
